@@ -1,0 +1,120 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  /* background-color: rgb(192, 215, 250); */
+  background-color: rgba(200, 220, 249, 0.4);
+  color: #320E3B;
+  line-height: 1em;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #4C2A85;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #6B7FD7;
+  line-height: 18px;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #71af5a;
+  line-height: 18px;
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+a {
+  color: #6B7FD7;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #55d9d9;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.card  {
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #6B7FD7;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+}
+
+.btn-darkblue {
+  background-color: #6B7FD7;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  transition: background-color 0.4s ease;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a:hover.btn-darkblue {
+  background-color: #55d9d9;
+  color: #4C2A85;
+}
+
+.fab {
+  padding: 0 11px 0 0;
+}
+
+ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
